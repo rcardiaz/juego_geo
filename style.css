@@ -1,0 +1,8 @@
+/* Este archivo contiene los estilos CSS personalizados.
+    Aunque la mayoría de los estilos provienen de Tailwind,
+    aquí podemos añadir cualquier estilo adicional que necesitemos.
+*/
+
+body {
+    font-family: 'Inter', sans-serif;
+}
