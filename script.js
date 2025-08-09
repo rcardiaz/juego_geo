@@ -27,7 +27,7 @@ const questions = [
             { text: "África", correct: true },
             { text: "Australia", correct: false }
         ]
-    }
+    },
      {
         question: "¿Cuál es el nombre del Director de la Institución?",
         answers: [
@@ -145,4 +145,5 @@ restartButton.addEventListener("click", startQuiz);
 
 // Inicia el quiz cuando se carga la página
 startQuiz();
+
 
