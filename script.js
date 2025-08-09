@@ -28,6 +28,15 @@ const questions = [
             { text: "Australia", correct: false }
         ]
     }
+     {
+        question: "¿Cuál es el nombre del Director de la Institución?",
+        answers: [
+            { text: "Carlos Fabricio", correct: false },
+            { text: "Luis Francisco", correct: false },
+            { text: "Luis Vinicio", correct: true },
+            { text: "Luis Felipe", correct: false }
+        ]
+    }
 ];
 
 let currentQuestionIndex = 0; // Lleva la cuenta de la pregunta actual
@@ -136,3 +145,4 @@ restartButton.addEventListener("click", startQuiz);
 
 // Inicia el quiz cuando se carga la página
 startQuiz();
+
